@@ -1,3 +1,22 @@
 body {
     background: #CACACA;
 }
+
+
+.navbar {
+    /*max-width: 332px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-logo {
+    max-width: 52px;
+    max-height: 52px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
