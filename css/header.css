@@ -1,24 +1,40 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
 
 @media screen and (max-width: 360px) {
-  .navbar {
-    max-width: 332px;
-  }
+    .navbar {
+        max-width: 332px;
+    }
 }
 
-.nav-logo {
-  max-width: 52px;
-  max-height: 52px;
+.nav__logo {
+    max-width: 52px;
+    max-height: 52px;
 }
 
-.nav-hamburger {
-  margin: 6px 0;
-  width: 28px;
-  height: 2px;
-  background-color: #151515;
+
+.nav__left {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list__item {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.nav__hamburger {
+    margin: 6px 0;
+    width: 28px;
+    height: 2px;
+    background-color: #151515;
 }

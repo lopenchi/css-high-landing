@@ -1,5 +1,12 @@
 @import "header.css";
 
+@font-face {
+    font-family: 'Neue Machina';
+    src: url("fonts/NeueMachina-Light.otf");
+}
+
+
 body {
     background: #CACACA;
+    font-family: "Neue Machina", serif;
 }
