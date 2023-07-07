@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .navbar {
+    max-width: 332px;
+  }
+}
+
+.nav-logo {
+  max-width: 52px;
+  max-height: 52px;
+}
+
+.nav-hamburger {
+  margin: 6px 0;
+  width: 28px;
+  height: 2px;
+  background-color: #151515;
+}
