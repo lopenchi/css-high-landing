@@ -2,23 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    font-size: 18px;
 }
 
-@media screen and (max-width: 360px) {
-    .navbar {
-        max-width: 332px;
-    }
+.nav__left {
+    display: flex;
 }
 
 .nav__logo {
     max-width: 52px;
     max-height: 52px;
-}
-
-
-.nav__left {
-    display: flex;
 }
 
 .nav__list {
@@ -30,4 +23,61 @@
 .nav__list__item {
     margin: 0 20px;
     list-style: none;
+}
+
+.nav__menu {
+    display: none;
+}
+
+.nav__button {
+    height: 52px;
+    width: 145px;
+}
+
+.nav__button:first-of-type {
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width: 2561px) {
+    .navbar {
+        max-width: 2280px;
+        margin: 36px 1400px;
+    }
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1025px) and (max-width: 2560px){
+    .navbar {
+        max-width: 1280px;
+        margin: 36px 80px;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-width: 361px)
+and (max-width: 1024px) {
+    .navbar {
+        max-width: 960px;
+        margin: 36px 32px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        max-width: 332px;
+        margin: 20px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__menu {
+        display: block;
+    }
+
+    .nav__button {
+        display: none;
+    }
 }

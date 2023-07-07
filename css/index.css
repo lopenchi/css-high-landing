@@ -3,10 +3,29 @@
 @font-face {
     font-family: 'Neue Machina';
     src: url("fonts/NeueMachina-Light.otf");
+    font-style: normal;
 }
 
 
 body {
     background: #CACACA;
     font-family: "Neue Machina", serif;
+}
+
+.button--gray {
+    background: #F0F0F0;
+    color: #151515;
+    border-color: #F0F0F0;
+}
+
+.button--dark {
+    background: #151515;
+    color: #ffffff;
+    border-color: #151515;
+}
+
+.button--gray:hover, .button--dark:hover {
+    background: #FFFFFF;
+    color: #151515;
+    border-color: #FFFFFF;
 }
