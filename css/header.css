@@ -38,31 +38,7 @@
     margin-right: 20px;
 }
 
-
-@media screen and (min-width: 2560px) {
-    .navbar {
-        max-width: 2280px;
-        margin: 36px 1400px;
-    }
-}
-
-/* For Desktop View */
-@media screen and (min-width: 1024px) and (max-width: 2560px){
-    .navbar {
-        max-width: 1280px;
-        margin: 36px 80px;
-    }
-}
-
-/* For Tablet View */
-@media screen and (min-width: 360px)
-and (max-width: 1024px) {
-    .navbar {
-        max-width: 960px;
-        margin: 36px 32px;
-    }
-}
-
+/* For Mobile View */
 @media screen and (max-width: 360px) {
     .navbar {
         max-width: 332px;
@@ -79,5 +55,28 @@ and (max-width: 1024px) {
 
     .nav__button {
         display: none;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-width: 360px) {
+    .navbar {
+        max-width: 960px;
+        margin: 36px 32px;
+    }
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) and (max-width: 2560px){
+    .navbar {
+        max-width: 1280px;
+        margin: 36px 80px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .navbar {
+        max-width: 2280px;
+        margin: 36px 1400px;
     }
 }
