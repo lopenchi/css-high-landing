@@ -4,6 +4,7 @@
 /*Components*/
 @import "components/button/index.css";
 @import "components/header/index.css";
+@import "components/hero/index.css";
 
 /*Utils*/
 @import "utils/index.css";
