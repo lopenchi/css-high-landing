@@ -1,0 +1,21 @@
+button {
+    height: 52px;
+}
+
+.button--gray {
+    background: #F0F0F0;
+    color: #151515;
+    border-color: #F0F0F0;
+}
+
+.button--dark {
+    background: #151515;
+    color: #ffffff;
+    border-color: #151515;
+}
+
+.button--gray:hover, .button--dark:hover {
+    background: #FFFFFF;
+    color: #151515;
+    border-color: #FFFFFF;
+}

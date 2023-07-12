@@ -1,3 +1,9 @@
-body {
-    background: #CACACA;
-}
+@import "fonts/index.css";
+@import "elements/index.css";
+
+/*Components*/
+@import "components/button/index.css";
+@import "components/header/index.css";
+
+/*Utils*/
+@import "utils/index.css";
