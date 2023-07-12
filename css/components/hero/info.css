@@ -26,3 +26,16 @@
         width: 198px;
     }
 }
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .hero__info__title {
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero__info__title {
+        max-width: 721px;
+    }
+}

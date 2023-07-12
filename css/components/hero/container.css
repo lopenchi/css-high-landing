@@ -11,6 +11,7 @@
 @media screen and (min-width: 360px) {
     .hero__container {
         display: flex;
+        justify-content: space-between;
         max-width: 1042px;
         margin: 36px 32px;
     }
@@ -18,6 +19,17 @@
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
+    .hero__container {
+        max-width: 1042px;
+        margin: 36px 32px;
+    }
+
+    .hero__info__title {
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
     .hero__container {
         max-width: 1319px;
         margin: 36px 80px;
