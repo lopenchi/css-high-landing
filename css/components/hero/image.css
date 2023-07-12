@@ -1,4 +1,17 @@
-.hero__image img {
-    width: 330px;
-    height: 348px;
+/* For Mobile View */
+@media screen and (max-width: 360px) {
+    .hero__image img {
+        max-width: 330px;
+        max-height: 348px;
+    }
 }
+
+@media screen and (min-width: 360px) {
+    .hero__image img {
+        width: 550px;
+        height: 580px;
+    }
+}
+
+
+

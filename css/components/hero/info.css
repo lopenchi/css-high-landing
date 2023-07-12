@@ -1,18 +1,28 @@
-.hero__info__group {
-    max-width: 330px;
-}
-
 .hero__info__auth {
-    max-width: 318px;
     display: flex;
     margin: 30px 0;
 }
 
-.hero__info__auth__input {
-    max-width: 186.28px;
-    text-align: center;
+/* For Mobile View */
+@media screen and (max-width: 360px) {
+    .hero__info__auth__input {
+        max-width: 186.28px;
+        text-align: center;
+    }
+
+    .hero__info__auth__button {
+        max-width: 131.72px;
+    }
 }
 
-.hero__info__auth__button {
-    max-width: 131.72px;
+/* For Table View */
+@media screen and (min-width: 360px) {
+    .hero__info__auth__input {
+        width: 280px;
+        text-align: center;
+    }
+
+    .hero__info__auth__button {
+        width: 198px;
+    }
 }
