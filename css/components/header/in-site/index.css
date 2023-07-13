@@ -1,0 +1,15 @@
+@import "list.css";
+@import "auth.css";
+@import "icon.css";
+
+.header__in-site {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+    .header__in-site {
+        justify-content: space-between;
+    }
+}

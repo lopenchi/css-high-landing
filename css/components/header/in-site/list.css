@@ -1,12 +1,3 @@
-.header__in-site {
-    display: flex;
-}
-
-.header__in-site__logo {
-    max-width: 52px;
-    max-height: 52px;
-}
-
 .header__in-site__list {
     display: none;
     justify-content: space-between;
@@ -30,3 +21,13 @@
         display: flex;
     }
 }
+
+.header__in-site__icon:focus-within + .header__in-site__list {
+    display: block;
+    position: absolute;
+    max-width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 40px;
+    z-index: 1
+}
+
