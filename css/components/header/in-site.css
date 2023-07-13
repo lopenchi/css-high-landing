@@ -11,11 +11,18 @@
     display: none;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .header__in-site__list__item {
     margin: 0 20px;
     list-style: none;
+}
+
+.header__in-site__list__item a {
+    height: 52px;
+    display: inline-flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 360px) {
