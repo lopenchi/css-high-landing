@@ -1,0 +1,12 @@
+span {
+    line-height: 26px;
+}
+
+button {
+    height: 52px;
+    cursor: pointer;
+}
+
+input {
+    height: 52px;
+}
