@@ -1,7 +1,8 @@
 body {
-    background: #F0F0F0;
+    background: var(--primary);
     font-family: "Neue Machina", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 100;
+    color: var(--primary-text);
 }

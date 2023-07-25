@@ -1,0 +1,33 @@
+@import 'colors.css';
+
+[data-theme="main"] {
+    --primary: var(--light-grey);
+    --secondary: var(--black);
+    --light: var(--white);
+    --primary-text: var(--black);
+    --secondary-text: var(--white);
+}
+
+[data-theme="danger"] {
+    --primary: var(--light-red);
+    --secondary: var(--dark-red);
+    --light: var(--white);
+    --primary-text: var(--dark-grey);
+    --secondary-text: var(--white);
+}
+
+[data-theme="info"] {
+    --primary: var(--light-blue);
+    --secondary: var(--dark-blue);
+    --light: var(--white);
+    --primary-text: var(--dark-grey);
+    --secondary-text: var(--white);
+}
+
+[data-theme="dark"] {
+    --primary: var(--dark-grey);
+    --secondary: var(--light-grey);
+    --light: var(--black);
+    --primary-text: var(--white);
+    --secondary-text: var(--black);
+}

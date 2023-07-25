@@ -1,17 +1,17 @@
-.button--gray {
-    background: #F0F0F0;
-    color: #151515;
-    border-color: #F0F0F0;
+.button--primary {
+    background: var(--primary);
+    border: var(--primary);
+    color: var(--primary-text);
 }
 
-.button--dark {
-    background: #151515;
-    color: #ffffff;
-    border-color: #151515;
+.button--secondary {
+    background: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--secondary-text);
 }
 
-.button--gray:hover, .button--dark:hover {
-    background: #FFFFFF;
-    color: #151515;
-    border-color: #FFFFFF;
+.button--primary:hover, .button--secondary:hover {
+    background: var(--light);
+    border-color: var(--light);
+    color: var(--primary-text);
 }

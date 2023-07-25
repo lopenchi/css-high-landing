@@ -1,5 +1,5 @@
 a {
-    color: #151515;
+    color: var(--primary-text);
     text-decoration: auto;
 }
 
