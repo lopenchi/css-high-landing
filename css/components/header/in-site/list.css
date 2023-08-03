@@ -1,0 +1,33 @@
+.header__in-site__list {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.header__in-site__list__item {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.header__in-site__list__item a {
+    block-size: 3.25rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 360px) {
+    .header__in-site__list {
+        display: flex;
+    }
+}
+
+.header__in-site__icon:focus-within + .header__in-site__list {
+    background: #F0F0F0;
+    display: block;
+    position: absolute;
+    max-width: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    margin-top: 40px;
+}
+

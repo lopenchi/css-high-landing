@@ -1,0 +1,11 @@
+.header__in-site__icon {
+    height: 52px;
+    display: inline-flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 360px) {
+    .header__in-site__icon {
+        display: none;
+    }
+}

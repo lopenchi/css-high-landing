@@ -1,12 +1,17 @@
+a {
+    color: #151515;
+    text-decoration: auto;
+}
+
 span {
     line-height: 26px;
 }
 
 button {
-    height: 52px;
+    block-size: 3.25rem;
     cursor: pointer;
 }
 
 input {
-    height: 52px;
+    block-size: 3.25rem
 }
