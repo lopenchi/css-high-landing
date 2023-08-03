@@ -1,5 +1,9 @@
 @import 'colors.css';
 
+* {
+    --min-element-height: 3.25rem;
+}
+
 [data-theme="main"] {
     --primary: var(--light-grey);
     --secondary: var(--black);

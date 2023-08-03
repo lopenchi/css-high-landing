@@ -1,5 +1,5 @@
 .header__in-site__icon {
-    height: 52px;
+    height: var(--min-element-height);
     display: inline-flex;
     align-items: center;
 }
