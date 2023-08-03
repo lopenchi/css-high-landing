@@ -1,5 +1,5 @@
 a {
-    color: #151515;
+    color: var(--primary-text);
     text-decoration: auto;
 }
 
@@ -8,10 +8,10 @@ span {
 }
 
 button {
-    block-size: 3.25rem;
+    block-size: var(--min-element-height);
     cursor: pointer;
 }
 
 input {
-    block-size: 3.25rem
+    block-size: var(--min-element-height)
 }
